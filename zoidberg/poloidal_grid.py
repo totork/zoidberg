@@ -335,7 +335,7 @@ class StructuredPoloidalGrid(PoloidalGrid):
 
         return R, Z
 
-    def findIndex(self, R, Z, tol=1e-10, show=False):
+    def findIndex(self, R, Z, tol=1e-13, show=False):
         """Finds the (x, z) index corresponding to the given (R, Z) coordinate
 
         Parameters
